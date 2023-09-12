@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eaeaea;
+    color: #333;
+    background-image: url("bekgrond.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 800px;
+    background: #fff;
+    margin: auto;
+}
+
+.header {
+    padding: 15px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+}
+
+.header .judul span {
+    color: blue;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: salmon;
+}
+
+.header a:hover {
+    background-color: blue;
+    color: #ffffff;
+}
+
+.banner {
+    height: 300px;
+    background-image: url("https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXJ0aWNsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center;
+    border-top: 5px solid lightgreen;
+    border-bottom: 5px solid orange;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content .penulis {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content .penulis a {
+    color: salmon;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content p {
+    margin-bottom: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.foooter .copyright {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
